@@ -1,0 +1,87 @@
+/* style.css */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #272822;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  margin: 15px 5%;
+}
+
+#discover {
+  background-color: #E94470;
+  color: #F7F7F7;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: inline-block;
+}
+
+#discover:hover {
+  background-color: #272822;
+}
+
+#follow_me {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #E94470;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+i {
+  font-size: 40px;
+  padding: 0px 10px;
+}
+
+a:hover {
+color: #272822;
+}
+
+img {
+  width: 20%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 20px;
+}
